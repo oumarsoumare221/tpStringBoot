@@ -12,7 +12,7 @@ public class MyConfig {
     @Bean
     public ViewResolver getViewResolver(){
         InternalResourceViewResolver resolver= new InternalResourceViewResolver();
-        resolver.setPrefix("/WEB-INF/templates/");
+        resolver.setPrefix("/WEB-INF/jsp/");
         resolver.setSuffix(".jsp");
         return  resolver;
     }
